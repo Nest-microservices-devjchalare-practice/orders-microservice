@@ -2,20 +2,13 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
 
-## Description
+Orders Microservice
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+# Dev
 
-ORDERS MICROSERVICE
-
-## Installation
-
-```bash
-$ npm install
-```
-
-## Docker
-
-```bash
-$ docker compose up -d
-```
+1. Clone repository
+2. Install `npm install`
+3. Create `.env` file based on `.env.template` file
+4. Run `docker compose up -d`
+5. Run prisma migrations `npx prisma migrate dev`
+6. Run `npm run start:dev`
